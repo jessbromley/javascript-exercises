@@ -5,7 +5,7 @@ const ftoc = function(temp) {
 
 const ctof = function(temp) {
   let fah = temp * (9/5) + 32;
-  return fah;
+  return parseFloat(fah.toFixed(1));
 };
 
 // Do not edit below this line
