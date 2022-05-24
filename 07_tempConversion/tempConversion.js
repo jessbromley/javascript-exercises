@@ -1,6 +1,6 @@
 const ftoc = function(temp) {
   let celc = (temp - 32) * (5 / 9);
-  return celc;
+  return parseFloat(celc.toFixed(1));
 };
 
 const ctof = function() {
