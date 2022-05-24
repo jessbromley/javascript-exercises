@@ -3,8 +3,9 @@ const ftoc = function(temp) {
   return parseFloat(celc.toFixed(1));
 };
 
-const ctof = function() {
-
+const ctof = function(temp) {
+  let fah = temp * (9/5) + 32;
+  return fah;
 };
 
 // Do not edit below this line
