@@ -1,6 +1,11 @@
 const sumAll = function(num1, num2) {
     let smallerNum = null;
     let biggerNum = null;
+
+    if(num1 < 0 || num2 < 0){
+        return 'ERROR'; 
+    }
+
     if(num1 > num2){
         biggerNum = num1;
         smallerNum = num2;
